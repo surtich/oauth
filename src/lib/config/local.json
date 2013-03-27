@@ -1,0 +1,57 @@
+{
+ "oauth" : {
+  "login" : {
+   "google" : {
+    "client_id"     : "841851172902-7c9doph39q1n9dk2c64jj6sdr8d3ulci.apps.googleusercontent.com",
+    "secret_key"    : "0kEz-CsBImPLyebg7kWJ4byE",
+    "redirect_uri"  : "http://localhost:8081/oauth2callback"
+   }
+  }
+ },
+ "app" : {
+  "url" : "http://localhost",
+  "port": 8081,
+  "db": 
+  {
+   "qlog_conf": {
+    "uri": "mongodb://localhost/qlog-database",
+    "type": "mongodb"
+   },
+   "session" : {
+    "host" : "localhost",
+    "port" : "6379",
+    "type" : "redis",
+    "params" : {}
+   },
+   "user_config" : {
+    "host" : "localhost",
+    "port" : "6379",
+    "type" : "redis",
+    "params" : {}
+   }
+  }
+ },
+ "client" : {
+  "url" : "http://localhost",
+  "port": 8082,
+  "db": 
+  {
+   "qlog_conf": {
+    "uri": "mongodb://localhost/qlog-client-database",
+    "type": "mongodb"
+   },
+   "session" : {
+    "host" : "localhost",
+    "port" : "6379",
+    "type" : "redis",
+    "params" : {}
+   },
+   "user_config" : {
+    "host" : "localhost",
+    "port" : "6379",
+    "type" : "redis",
+    "params" : {}
+   }
+  }
+ }  
+}

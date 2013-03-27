@@ -1,0 +1,35 @@
+{
+ "name": "shopping-list-example-node",
+ "author": {
+  "name": "Javier Pérez",
+  "email": "surtich@gmail.com"
+ },
+ "version": "0.0.3",
+ "scripts": {
+  "start": "node src/shopping_app/app/main.js env=nodejitsu"
+ },
+ "dependencies": {
+  "express": "3.1.x",
+  "mongoose": "3.5.x",
+  "mongodb": "1.2.x",
+  "async": "0.1.x",
+  "passport-google-oauth": "0.1.x",
+  "passport": "0.1.x",
+  "util": "0.4.x",
+  "validator": "0.4.x",
+  "q"			: "0.8.x",
+  "redis"		: "0.8.2",
+  "mocha"		: "1.8.x",
+  "xtend"		: "1.0.x",
+  "request":"x",
+  "rabbit.js"	: "0.2.x",
+  "amqp"		: "0.1.x",
+  "redis"		: "0.8.2",
+  "connect-redis" : "x",
+  "sockect.io": "0.9.x"
+ },
+ "subdomain": "surtich.shopping-list-example",
+ "engines": {
+  "node": "0.8.x"
+ }
+}

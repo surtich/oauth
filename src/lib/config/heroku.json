@@ -1,0 +1,35 @@
+{
+ "oauth" : {
+  "login" : {
+   "google" : {
+    "client_id"     : "841851172902.apps.googleusercontent.com",
+    "secret_key"    : "uTcQb5lVmWD8jYnpuHZ4hwbw",
+    "redirect_uri"  : "http://shopping-list-example.herokuapp.com/oauth2callback"
+   }
+  }
+ },
+ "app" : {
+  "url" : "http://shopping-list-example.herokuapp.com",
+  "port": 80,
+  "db":{
+   "shopping_conf": {
+    "uri": "mongodb://shopping-list-database-user:shopping-user-23ewejfoiejfe@linus.mongohq.com:10077/shopping-list-database",
+    "type": "mongodb"
+   },
+   "session" : {
+    "host" : "pub-redis-13609.us-east-1-2.3.ec2.garantiadata.com",
+    "port" : "13609",
+    "pass" : "fffe7615a05b6ef4640b91bd90eb98b7",
+    "type" : "redis",
+    "params" : {}
+   },
+   "user_config" : {
+    "host" : "pub-redis-13609.us-east-1-2.3.ec2.garantiadata.com",
+    "port" : "13609",
+    "pass" : "fffe7615a05b6ef4640b91bd90eb98b7",
+    "type" : "redis",
+    "params" : {}
+   }
+  }
+ }  
+}

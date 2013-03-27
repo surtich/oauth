@@ -1,0 +1,27 @@
+<div class="modal hide fade" data-id="div_config" tabindex="-1" role="dialog" >
+ <div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" data-bind="click:cancel" aria-hidden="true">×</button>
+  <h3 data-id="header">@@ADMIN.CONFIG@@ <span data-id="app_name"></span></h3>
+ </div>
+ <div class="modal-body">
+  <label>EndPoint URL:
+   <textarea data-id="endpoint" rows="1" cols="300" class="span5"/>
+  </label>
+  <label>Client Id:
+   <textarea data-id="client_id" rows="1" cols="300" class="span5"/>
+  </label>
+  <label>Client Secret:
+   <textarea data-id="client_secret" rows="1" cols="300" class="span5"/>
+  </label>
+  <label>redirect URI:
+   <textarea data-id="redirect_uri" rows="1" cols="300" class="span5"/>
+  </label>
+  <label>Scope:
+   <textarea data-id="scope" rows="1" cols="300" class="span5"/>
+  </label>
+ </div>
+ <div class="modal-footer">
+  <button data-id="save_config" class="btn btn-success pull-right">@@OK@@</button>
+  <button data-dismiss="modal" data-id="cancel" class="btn btn-warning pull-left">@@CANCEL@@</button>
+ </div>
+</div>
